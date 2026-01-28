@@ -36,7 +36,7 @@ jobs:
     - name: Upload artifacts (optional)
       uses: actions/upload-artifact@v4
       with:
-        name: nodejs-app
+        name: nodejs-app-${{ matrix.node-version }}
         path: |
           server.js
           package.json
