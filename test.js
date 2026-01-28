@@ -4,8 +4,9 @@ console.log('Running tests...');
 
 // Simple test to verify the server module loads
 try {
-  const server = require('./server.js');
+  const serverrr = require('./server.js');
   console.log('✓ Server module loaded successfully');
+  
   
   // Test HTTP request
   const options = {
